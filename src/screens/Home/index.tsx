@@ -14,6 +14,8 @@ import EvilIcons from 'react-native-vector-icons/EvilIcons';
 import { BackGroundHome } from '../../components/Background';
 import { styles } from './styles';
 import { AlbumList } from '../../components/AlbumList';
+import { RectButton } from 'react-native-gesture-handler';
+import { useNavigation } from '@react-navigation/core';
 
 const Top50 = require('../../assets/Top50.jpg')
 const Top2019 = require('../../assets/Top2019.jpg')
@@ -91,10 +93,12 @@ export function Home() {
     {
       author: 'Hipsters',
       image: Hipsters
-    }, {
+    },
+    {
       author: 'Lambada3',
       image: Lambada3
-    }, {
+    },
+    {
       author: 'PodProgramar',
       image: PodProgramar
     },
@@ -108,10 +112,12 @@ export function Home() {
     {
       author: 'Spotify',
       image: Sertanejo
-    }, {
+    },
+    {
       author: 'Spotify',
       image: Legiao
-    }, {
+    },
+    {
       author: 'Spotify',
       image: Safadao
     },
@@ -125,10 +131,12 @@ export function Home() {
     {
       author: 'Spotify',
       image: Mix2
-    }, {
+    },
+    {
       author: 'Spotify',
       image: Mix3
-    }, {
+    },
+    {
       author: 'Spotify',
       image: Mix4
     },
@@ -146,10 +154,12 @@ export function Home() {
     {
       author: 'Você',
       image: Drake
-    }, {
+    },
+    {
       author: 'Você',
       image: Nacional
-    }, {
+    },
+    {
       author: 'Você',
       image: Mamonas
     },
@@ -173,8 +183,6 @@ export function Home() {
       image: Beatles
     },
   ])
-
-  
 
   return (
     <BackGroundHome>
@@ -274,7 +282,7 @@ export function Home() {
           <Text style={styles.tittlePodcast}>Podcasts</Text>
           <FlatList
             data={podcasts}
-            style={{marginBottom: 20}}
+            style={{ marginBottom: 20 }}
             horizontal={true}
             showsHorizontalScrollIndicator={false}
             renderItem={({ item }) => (
