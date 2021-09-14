@@ -15,36 +15,32 @@ import { BackGroundHome } from '../../components/Background';
 import { styles } from './styles';
 import { AlbumList } from '../../components/AlbumList';
 
-const Top50 = require('../../assets/Top50.jpg')
-const Top2019 = require('../../assets/Top2019.jpg')
-const Top2018 = require('../../assets/Top2018.jpg')
-const Top2017 = require('../../assets/Top2017.jpg')
-
-const Mamonas = require('../../assets/Mamonas.jpeg')
-const Drake = require('../../assets/Drake.jpeg')
-const Nacional = require('../../assets/Nacional.jpeg')
-const Liked = require('../../assets/Liked.png')
-
-const Hipsters = require('../../assets/Hipsters.jpeg')
-const CanalTech = require('../../assets/CanalTech.jpeg')
-const PodProgramar = require('../../assets/PodProgramar.jpeg')
-const Lambada3 = require('../../assets/Lambada3.jpeg')
-
-const DuaLipa = require('../../assets/DuaLipa.jpeg')
-const Safadao = require('../../assets/Safadao.jpeg')
-const Sertanejo = require('../../assets/Sertanejo.jpeg')
-const Legiao = require('../../assets/Legiao.jpeg')
-
-const Mix1 = require('../../assets/Mix1.jpeg')
-const Mix2 = require('../../assets/Mix2.jpeg')
-const Mix3 = require('../../assets/Mix3.jpeg')
-const Mix4 = require('../../assets/Mix4.jpeg')
-const Mix5 = require('../../assets/Mix5.jpeg')
-
-const Spliknot = require('../../assets/Spliknot.jpeg')
-const Assassinas = require('../../assets/Assassinas.jpeg')
-const Beatles = require('../../assets/Beatles.jpeg')
-
+import {
+  Drake,
+  Nacional,
+  Mamonas,
+  Assassinas,
+  Spliknot,
+  Beatles,
+  Hipsters,
+  Lambada3,
+  CanalTech,
+  PodProgramar,
+  Mix1,
+  Mix2,
+  Mix3,
+  Mix4,
+  Mix5,
+  Legiao,
+  Liked,
+  Safadao,
+  DuaLipa,
+  Sertanejo,
+  Top50,
+  Top2019,
+  Top2018,
+  Top2017
+} from '../../components/Image';
 
 export function Home() {
 
