@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 
 import {
   View,
@@ -14,8 +14,6 @@ import EvilIcons from 'react-native-vector-icons/EvilIcons';
 import { BackGroundHome } from '../../components/Background';
 import { styles } from './styles';
 import { AlbumList } from '../../components/AlbumList';
-import { RectButton } from 'react-native-gesture-handler';
-import { useNavigation } from '@react-navigation/core';
 
 const Top50 = require('../../assets/Top50.jpg')
 const Top2019 = require('../../assets/Top2019.jpg')
